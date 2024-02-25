@@ -2,39 +2,34 @@
 
 # Backend Project 
 
-## Overview
-This project serves as the backend for the Storylink web application. It handles user authentication, manages story data, and provides endpoints for frontend interaction.
 
-## Steps Done
-1. **Setup Project Structure**: Created the basic folder structure for the backend project.
-2. **Installed Dependencies**: Installed necessary packages such as Express, MongoDB, Mongoose, etc.
-3. **Configured MongoDB**: Set up MongoDB database and configured connection settings.
-4. **Implemented User Authentication**: Integrated user authentication using JWT tokens.
-5. **Developed Story Management**: Implemented CRUD operations for managing stories.
-6. **Created API Endpoints**: Defined RESTful API endpoints for frontend communication.
-7. **Handled Error Cases**: Implemented error handling and validation for API requests.
+## MySQL Setup
+1. Install MySQL database server.
+2. Create a new database named `blog`.
+3. Set up necessary tables for users, write, dashboard, etc.
+
+## Node.js Setup
+1. Install Node.js runtime environment.
+2. Initialize a new Node.js project using `npm init`.
+3. Install required dependencies such as Express, Sequelize, bcrypt, jsonwebtoken, etc.
+4. Set up routes, controllers, and models for user authentication, story management, etc.
+5. Implement CRUD operations for managing stories, comments, and user profiles.
 
 ## Installed Dependencies
-- Express: Web application framework for Node.js
-- Mongoose: MongoDB object modeling tool
-- JWT: JSON Web Token for user authentication
-- Body-parser: Middleware for parsing incoming request bodies
-- Cors: Cross-Origin Resource Sharing middleware
+- Express: For building the web server and handling HTTP requests.
+- Sequelize: For ORM (Object-Relational Mapping) to interact with the MySQL database.
+- bcrypt: For hashing passwords and enhancing user authentication security.
+- jsonwebtoken: For generating and verifying JWT (JSON Web Tokens) for user authentication.
+- dotenv: For managing environment variables.
+- nodemon: For automatically restarting the server during development.
 
 ## Project Overview
-- **User Authentication**: Provides secure user authentication using JWT tokens.
-- **Story Management**: Enables users to create, read, update, and delete stories.
-- **RESTful API**: Implements RESTful API endpoints for frontend interaction.
-- **Error Handling**: Includes robust error handling and validation for API requests.
-
-## Installation
-1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `npm install`
-3. Start the server: `npm start`
-
-## Usage
-- Make API requests to interact with user and story data.
-- Refer to the API documentation for detailed usage instructions.
+- Storylink backend serves as the server-side logic for managing user accounts, stories, comments, and authentication.
+- It provides RESTful APIs for creating, retrieving, updating, and deleting stories and comments.
+- User authentication is implemented using JWT tokens to secure endpoints and manage user sessions.
+- Sequelize ORM simplifies database interactions and ensures data integrity with MySQL.
+- The backend is built using Node.js and Express, offering a scalable and efficient runtime environment for handling requests.
+- Detailed documentation and API specifications are provided for seamless integration with the frontend application.
 
 ## Contributors
 Sai Nikhil S
