@@ -1,3 +1,3 @@
 # Storylink-BOB-backend
 
-<img width="960" alt="s10" src="https://github.com/Sainikhil28/Storylink-BOB-backend/assets/96835217/de049c74-7e90-41b7-bbc0-c94dc81c1c11">
+<img width="759" alt="s9" src="https://github.com/Sainikhil28/Storylink-BOB-backend/assets/96835217/ce77c69b-8415-48af-9b7b-b000712e5265">
